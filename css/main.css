@@ -1,7 +1,17 @@
 body{
-    background-color: aqua;
+    background-image: url("../image/Background.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
 }
+
+
+    
+
 
 h1{
     text-align: center;
+    color: mediumspringgreen;
+}
+p{
+    color: red;
 }
