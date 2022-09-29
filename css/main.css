@@ -8,6 +8,43 @@ h1{
     text-align: center;
     color: mediumspringgreen;
 }
+h2{
+    margin: 10px;
+    margin-bottom: -10px;
+}
+p1{
+    color: ghostwhite;
+    margin: 10px;
+}
+
+ul{
+    padding: 0px;
+}
+
 p{
-    color: red;
+    margin: 10px;
+}
+
+li{
+    margin-left: 10px;
+}
+
+dl{
+    color: lawngreen;
+}
+
+dt{
+    margin: 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
+.gems{
+    width: 25%;
+    margin-left: 580px
+    
+}
+.ad{
+    background-image: url( ../image/Clash\ Royale\ lobby\ wallpaper.png);
 }
