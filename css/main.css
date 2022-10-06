@@ -12,13 +12,12 @@ h2{
     margin: 10px;
     margin-bottom: -10px;
 }
-p1{
-    color: ghostwhite;
-    margin: 10px;
-}
+
 
 ul{
     padding: 0px;
+    color: ghostwhite;
+    margin: 10px;
 }
 
 p{
@@ -27,6 +26,7 @@ p{
 
 li{
     margin-left: 10px;
+    color: black;
 }
 
 dl{
