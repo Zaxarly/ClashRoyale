@@ -1,0 +1,18 @@
+body{
+    background-image: url("../image/Background.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+}
+  
+h1{
+    text-align: center;
+    color: plum;
+}
+p{
+    font-size: 25px;
+    font-variant: small-caps;
+    text-align: center;
+}
+.map{
+    margin-left: 230px;
+}

@@ -1,0 +1,16 @@
+body{
+    background-image: url("../image/Background.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+}
+  
+h1{
+    text-align: center;
+    color: aqua;
+    -webkit-text-stroke: 1.3px black;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
