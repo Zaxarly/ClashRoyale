@@ -14,3 +14,7 @@ p{
     font-size: 20px;
     color: white;
 }
+nav a{
+    color: black;
+    text-decoration: none;
+}

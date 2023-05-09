@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
+    background-size: 100%;
 }
   
 h1{
@@ -15,6 +16,7 @@ h5{
     font-size: 30px;
     color: white;
     -webkit-text-stroke: 1.3px orange;
+    text-shadow: 0 5px 0 rgb(0 0 0 / 20%);
 }
 p{
     font-size: 20px;
@@ -26,10 +28,87 @@ li{
     color: white;
     margin-left: 20px
 }
-.image-wrapper{
-    margin-left: 450px
+#nav{
+    background: linear-gradient(white, #90c9dc);
+    text-align: center;
 }
-.anchor{
-    font-style: italic;
+a{
+    color: black;
+    text-decoration: none;
+}
+.image-wrapper{
+    margin-left: 33%
+}
+.bugfixes{
+    border: 3px solid black;
+    border-radius: 60px;
+    width: 60%;
+    background-image: radial-gradient(royalblue, purple, black );
+    margin-left: 260px;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px white;
+    
 }
 
+.lazyloaded{
+    border: 3.5px solid orange;
+    border-radius: 15px;
+}
+
+#anchor{
+    border: 5px solid royalblue;
+    background-image: url("../image/Clash\ Royale\ lobby\ wallpaper.png");
+    width: 500px;
+    margin-left: 5px;
+    background-repeat: no-repeat;
+}
+
+#article-hero__img_lazyloaded{
+    border: 5px solid lightblue;
+    border-radius: 50px;
+}
+
+#underlinedelete{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+
+.back-to-top {
+    margin-bottom: 6px;
+    margin-left: 7px;
+    width: 200px;
+    border: #ffa518 1px;
+    border-radius: 10px;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ffa518;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 20px;
+    text-decoration: none;
+    text-shadow: 0 2px 0 rgb(0 0 0 / 20%);
+    box-shadow: 5px 4px rgb(190, 106, 22);
+}
+.back-to-top .back-to-top__cta {
+    color: #ffffff;
+    margin-right: 12px;
+}
+.back-to-top .back-to-top__svg {
+    filter: drop-shadow(0 2px 0 rgba(0, 0, 0, 0.2));
+}
+.back-to-top .back-to-top__svg svg {
+    height: 14px;
+    width: 14px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}

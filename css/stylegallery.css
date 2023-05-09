@@ -1,0 +1,26 @@
+/*Gallery*/
+body{
+    margin: 0px;
+    background: url("/image/Clash\ Royale\ lobby\ wallpaper.png");
+    background-size: 100% auto;
+}
+.gallery{
+    margin: 322px;
+    justify-content: center;
+}
+.gallery img {
+    padding: 10px;
+    border: 3px solid #ffa500;
+   }
+   a.photo:hover img{
+    border: 3px solid #0000ff;
+   }
+   a{
+    color: black;
+    text-decoration: none;
+}
+#nav{
+    background: linear-gradient(white, #90c9dc);
+    display: flex;
+    column-gap: 5px;
+}

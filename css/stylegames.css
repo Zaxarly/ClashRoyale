@@ -16,3 +16,7 @@ p{
 .map{
     margin-left: 230px;
 }
+a{
+    color: black;
+    text-decoration: none;
+}
