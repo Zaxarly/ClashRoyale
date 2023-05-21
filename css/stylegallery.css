@@ -1,7 +1,7 @@
 /*Gallery*/
 body{
     margin: 0px;
-    background: url("/image/Clash\ Royale\ lobby\ wallpaper.png");
+    background: url("../image/Clash\ Royale\ lobby\ wallpaper.png");
     background-size: 100% auto;
 }
 .gallery{
